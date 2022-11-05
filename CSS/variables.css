@@ -1,0 +1,13 @@
+:root {
+  --violet-color: #26065e;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(../Fonts/Gilroy-Light.otf);
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(../Fonts/Gilroy-ExtraBold.otf);
+  font-weight: bold;
+}

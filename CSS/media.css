@@ -1,0 +1,56 @@
+@media only screen and (min-width: 960px) {
+    .wrapper {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .pcOnly {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .wrapper {
+        padding: 0 1rem 3rem 1rem;
+    }
+
+    .titleWrapper {
+        position: absolute;
+        padding-bottom: 10px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .phoneOnly {
+        display: block;
+    }
+
+    .myPhoto {
+        height: 60vh;
+    }
+
+    .name,
+    .position {
+        display: none;
+    }
+
+    .positionPhone,
+    .namePhone {
+        color: white;
+        text-align: center;
+    }
+
+    .namePhone {
+        font-size: 1.75rem;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 1340px) and (min-width: 960px) {
+    .wrapper {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
